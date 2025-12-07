@@ -6,7 +6,6 @@ public class UI : MonoBehaviour
     [SerializeField] private GameObject[] uiElements;
     
     private PlayerInputSet input;
-    public UI_InGame inGameUI { get; private set; }
     public UI_Options optionsUI { get; private set; }
     public UI_DeathScreen deathScreenUI { get; private set; }
     public UI_FadeScreen fadeScreenUI { get; private set; }
@@ -16,7 +15,6 @@ public class UI : MonoBehaviour
     {
         instance = this;
         
-        inGameUI = GetComponentInChildren<UI_InGame>(true);
         optionsUI = GetComponentInChildren<UI_Options>(true);
         deathScreenUI = GetComponentInChildren<UI_DeathScreen>(true);
         fadeScreenUI = GetComponentInChildren<UI_FadeScreen>(true);
@@ -34,7 +32,7 @@ public class UI : MonoBehaviour
                 if (element.activeSelf)
                 {
                     Time.timeScale = 1;
-                    SwitchToInGameUI();
+                    ReturnToGameplay();
                     return;
                 }
             }
@@ -63,7 +61,8 @@ public class UI : MonoBehaviour
         foreach (var element in uiElements)
             element.gameObject.SetActive(false);
 
-        objectToSwitchOn.SetActive(true);
+        if (objectToSwitchOn != null)
+            objectToSwitchOn.SetActive(true);
     }
     
     private void StopPlayerControls(bool stopControls)
@@ -94,7 +93,6 @@ public class UI : MonoBehaviour
         
         dialogueUI.gameObject.SetActive(true);
         dialogueUI.PlayDialogueLine(firstLine);
-        
     }
 
     public void OpenDeathScreenUI()
@@ -109,9 +107,10 @@ public class UI : MonoBehaviour
         SwitchTo(optionsUI.gameObject);
     }
     
-    public void SwitchToInGameUI()
+    public void ReturnToGameplay()
     {
         StopPlayerControls(false);
-        SwitchTo(inGameUI.gameObject);
+        // 关闭所有 UI，但不再切到 In-Game 面板
+        SwitchTo(null);
     }
 }

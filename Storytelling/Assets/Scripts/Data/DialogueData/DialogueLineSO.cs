@@ -18,6 +18,9 @@ public class DialogueLineSO : ScriptableObject
     [TextArea] public string actionLine;
     public DialogueActionType actionType;
 
+    [Header("Flow")]
+    public DialogueLineSO nextLine;   // 新增：用于 Continue 串联
+
     public string GetFirstLine() => textLine[0];
 
     public string GetRandomLine()
@@ -25,3 +28,4 @@ public class DialogueLineSO : ScriptableObject
         return textLine[Random.Range(0, textLine.Length)];
     }
 }
+

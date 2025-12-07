@@ -7,31 +7,31 @@ using UnityEngine.UI;
 public class UI_Dialogue : MonoBehaviour
 {
     private UI ui;
-    
+
     [SerializeField] private TextMeshProUGUI speakerName;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI[] dialogueChoicesText;
-    
+
     [SerializeField] private float textSpeed = 0.1f;
     private string fullTextToShow;
     private Coroutine typeTextCo;
-    
+
     private DialogueLineSO currentLine;
     private DialogueLineSO[] currentChoices;
     private DialogueLineSO selectedChoice;
     private int selectedChoiceIndex;
-    
+
     private bool waitingToConfirm;
     private bool canInteract;
-    
+
     [SerializeField] private AudioSource typeSfxSource;
     [SerializeField] private AudioClip typeSfx;
-    
+
     private void Awake()
     {
         ui = GetComponentInParent<UI>();
     }
-    
+
     public void PlayDialogueLine(DialogueLineSO line)
     {
         currentLine = line;
@@ -41,16 +41,19 @@ public class UI_Dialogue : MonoBehaviour
         selectedChoiceIndex = 0;
 
         HideAllChoices();
-        
+
         speakerName.text = line.speaker.speakerName;
 
-        fullTextToShow = line.actionType == DialogueActionType.None || line.actionType == DialogueActionType.PlayerMakeChoice ?
-            line.GetRandomLine() : line.actionLine;
+        fullTextToShow = (line.actionType == DialogueActionType.None 
+            || line.actionType == DialogueActionType.PlayerMakeChoice
+            || line.actionType == DialogueActionType.Continue) 
+            ? line.GetFirstLine() : line.actionLine;
+
 
         typeTextCo = StartCoroutine(TypeTextCo(fullTextToShow));
         StartCoroutine(EnableInteractionCo());
     }
-    
+
     private void HandleNextAction()
     {
         switch (currentLine.actionType)
@@ -66,12 +69,28 @@ public class UI_Dialogue : MonoBehaviour
                     PlayDialogueLine(selectedChoice);
                 }
                 break;
+            case DialogueActionType.Continue: // 新增：按确认继续到 nextLine
+                if (currentLine.nextLine != null)
+                {
+                    PlayDialogueLine(currentLine.nextLine);
+                }
+                else
+                {
+                    // 没有配置 nextLine 就安全收尾
+                    ui.ReturnToGameplay();
+                }
+                break;
             case DialogueActionType.CloseDialogue:
-                ui.SwitchToInGameUI();
+                ui.ReturnToGameplay();
+                break;
+            case DialogueActionType.None:
+            default:
+                // 防止遗漏类型导致“卡住”
+                ui.ReturnToGameplay();
                 break;
         }
     }
-    
+
     public void DialogueInteraction()
     {
         if (canInteract == false)
@@ -95,7 +114,7 @@ public class UI_Dialogue : MonoBehaviour
             HandleNextAction();
         }
     }
-    
+
     private void CompleteTyping()
     {
         if (typeTextCo != null)
@@ -105,7 +124,7 @@ public class UI_Dialogue : MonoBehaviour
             typeTextCo = null;
         }
     }
-    
+
     private void ShowChoices()
     {
         for (int i = 0; i < dialogueChoicesText.Length; i++)
@@ -127,13 +146,13 @@ public class UI_Dialogue : MonoBehaviour
         }
         selectedChoice = currentChoices[selectedChoiceIndex];
     }
-    
+
     private void HideAllChoices()
     {
         foreach (var obj in dialogueChoicesText)
             obj.gameObject.SetActive(false);
     }
-    
+
     public void NavigateChoice(int direction)
     {
         if (currentChoices == null || currentChoices.Length <= 1)
@@ -143,7 +162,7 @@ public class UI_Dialogue : MonoBehaviour
         selectedChoiceIndex = Mathf.Clamp(selectedChoiceIndex, 0, currentChoices.Length - 1);
         ShowChoices();
     }
-    
+
     private IEnumerator TypeTextCo(string text)
     {
         dialogueText.text = "";
@@ -151,10 +170,10 @@ public class UI_Dialogue : MonoBehaviour
         foreach (char letter in text)
         {
             dialogueText.text += letter;
-            
+
             if (typeSfx != null && typeSfxSource != null && !char.IsWhiteSpace(letter))
                 typeSfxSource.PlayOneShot(typeSfx);
-            
+
             yield return new WaitForSeconds(textSpeed);
         }
 
@@ -171,7 +190,7 @@ public class UI_Dialogue : MonoBehaviour
 
         typeTextCo = null;
     }
-    
+
     private IEnumerator EnableInteractionCo()
     {
         yield return null;
