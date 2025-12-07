@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
-  m_Name: Line - Me_1 2
+  m_Name: Line - Me_4 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
   dialogueGroupName: Me
   speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
   textLine:
-  - The hallway lights cast a stale, dim yellow glow. Hard to believe just minutes
-    ago I was on a calm walk, until the sky tore open
-  playerChoiceAnswer: 
+  - Have you seen my cat? It's a black and white "cow" cat. It just ran in here to
+    hide from the rain.
+  playerChoiceAnswer: Have you seen my cat?
   choiceLines: []
   actionLine: 
   actionType: 1
-  nextLine: {fileID: 11400000, guid: 531574a65a93f52478c4bc528c2ac301, type: 2}
+  nextLine: {fileID: 11400000, guid: 27c4bc114ec448f41b456b28723c1765, type: 2}

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
-  m_Name: Line - Me_4 2
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
-  dialogueGroupName: Me
-  speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
-  textLine: []
+  m_Name: Line - Anna_1 12
+  m_EditorClassIdentifier: 
+  dialogueGroupName: Anna
+  speaker: {fileID: 11400000, guid: 58d474507ce3ea547b0b128d0e4824ca, type: 2}
+  textLine:
+  - "Perfect. Though\u2026 I just realized I'm out of milk. Could you do me a favor? "
   playerChoiceAnswer: 
   choiceLines: []
-  actionLine: (A chill runs down my spine) Is that so? I think it's just afraid of
-    water
-  actionType: 3
-  nextLine: {fileID: 0}
+  actionLine: 
+  actionType: 1
+  nextLine: {fileID: 11400000, guid: c899c6c2fb32fe8449e4034a67eb06ae, type: 2}

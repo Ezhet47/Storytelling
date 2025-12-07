@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
-  m_Name: Line - Me_4 1
+  m_Name: Line - Me_4 8
   m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
   dialogueGroupName: Me
   speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
   textLine:
-  - Have you seen my cat? It's a black and white "cow" cat. It just ran in here to
-    hide from the rain.
-  playerChoiceAnswer: Have you seen my cat?
+  - 
+  playerChoiceAnswer: 
   choiceLines: []
-  actionLine: 
-  actionType: 1
+  actionLine: Sure, just a moment
+  actionType: 3
   nextLine: {fileID: 0}
