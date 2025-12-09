@@ -15,10 +15,9 @@ MonoBehaviour:
   dialogueGroupName: Me
   speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
   textLine:
-  - My cat pepper shot into this building to escape the rain, and I followed a shadow
-    all the way up here
+  - 
   playerChoiceAnswer: 
   choiceLines: []
-  actionLine: 
-  actionType: 1
-  nextLine: {fileID: 11400000, guid: 531574a65a93f52478c4bc528c2ac301, type: 2}
+  actionLine: Perhaps I should go check
+  actionType: 3
+  nextLine: {fileID: 0}

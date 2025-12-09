@@ -15,9 +15,10 @@ MonoBehaviour:
   dialogueGroupName: Me
   speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
   textLine:
-  - The hallway lights cast a stale, dim yellow glow. Hard to believe just minutes
-    ago I was on a calm walk, until the sky tore open
+  - This floor is so quiet. Maybe Pepper has already gone down the stairs on the
+    right?
   playerChoiceAnswer: 
   choiceLines: []
+  actionLine: 
   actionType: 1
-  nextLine: {fileID: 11400000, guid: a4778a983cde85145bca94c299490120, type: 2}
+  nextLine: {fileID: 11400000, guid: 9314b02c71c1f5543b190550cec1e534, type: 2}

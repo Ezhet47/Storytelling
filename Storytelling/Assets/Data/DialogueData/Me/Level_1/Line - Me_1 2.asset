@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
-  m_Name: Line - Anna_1 4
-  m_EditorClassIdentifier: 
-  dialogueGroupName: Anna
-  speaker: {fileID: 11400000, guid: 58d474507ce3ea547b0b128d0e4824ca, type: 2}
+  m_Name: Line - Me_1 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Me
+  speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
   textLine:
-  - This apartment has stairs on both sides, and the main gate is open. How could
-    you be trapped?
+  - 
   playerChoiceAnswer: 
   choiceLines: []
-  actionLine: 
-  actionType: 1
-  nextLine: {fileID: 11400000, guid: 38a28e24c37f9df4ab912de7ec7045aa, type: 2}
+  actionLine: This is too weird. Maybe I should ask one of the tenants on this floor
+    for directions
+  actionType: 3
+  nextLine: {fileID: 11400000, guid: 531574a65a93f52478c4bc528c2ac301, type: 2}
