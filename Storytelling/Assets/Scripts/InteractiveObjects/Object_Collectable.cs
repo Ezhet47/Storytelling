@@ -8,10 +8,10 @@ public class Object_Collectable : MonoBehaviour
     public Object_InteractionDetect otherScript;
     public Transform focusPoint;
 
-    public bool IsInteractable => true; // 物品永远可交互（你也可改）
+    public bool IsInteractable => true; 
 
     [Header("Collect Flag")]
-    public bool picked = false;     // 🔥 捡起后会变 true
+    public bool picked = false;     
 
 
 
@@ -49,7 +49,7 @@ public class Object_Collectable : MonoBehaviour
 
     private void PickItem()
     {
-        picked = true;  // 🔥 核心功能：捡起后改变变量
+        picked = true;  
 
         if (otherScript) otherScript.canpress = false;
 
