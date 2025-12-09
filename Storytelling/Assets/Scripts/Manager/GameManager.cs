@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string mainMenuSceneName = "MainMenu";
 
     [Header("Global Collect Flags")]
-    public bool milkPicked; 
+    public bool milkPicked;
+    public bool exerciseBookPicked; 
+    public bool newspaperPicked;
 
     public string StartGameSceneName => startGameSceneName;
     public string MainMenuSceneName => mainMenuSceneName;

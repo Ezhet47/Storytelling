@@ -5,7 +5,7 @@ public class Object_Actor : MonoBehaviour, IInteractable
     protected Transform player;
     protected UI ui;
     
-    [SerializeField] private Transform npc;
+    [SerializeField] private Transform interactObject;
     [SerializeField] private GameObject interactToolTip;
     private bool facingRight = true;
 
@@ -43,18 +43,18 @@ public class Object_Actor : MonoBehaviour, IInteractable
 
     private void HandleNpcFlip()
     {
-        if (player == null || npc == null)
+        if (player == null || interactObject == null)
             return;
 
-        if (npc.position.x > player.position.x && facingRight)
+        if (interactObject.position.x > player.position.x && facingRight)
         {
-            npc.transform.Rotate(0, 180,0);
+            interactObject.transform.Rotate(0, 180,0);
             interactToolTip.transform.Rotate(0, 180, 0);
             facingRight = false;
         }
-        else if (npc.position.x < player.position.x && facingRight == false)
+        else if (interactObject.position.x < player.position.x && facingRight == false)
         {
-            npc.transform.Rotate(0, 180, 0);
+            interactObject.transform.Rotate(0, 180, 0);
             interactToolTip.transform.Rotate(0, 180, 0);
             facingRight = true;
         }
