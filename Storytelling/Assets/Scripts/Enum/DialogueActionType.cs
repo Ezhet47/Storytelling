@@ -5,5 +5,6 @@ public enum DialogueActionType
     None,
     Continue,
     PlayerMakeChoice,
-    CloseDialogue
+    CloseDialogue,
+    SceneSwitch
 }

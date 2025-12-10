@@ -15,25 +15,25 @@ MonoBehaviour:
   player:
   - audioName: player_collect
     clips:
-    - {fileID: 8300000, guid: 98b107109a4ce2242bdf7a044b5bfc73, type: 3}
+    - {fileID: 8300000, guid: 802b2184600cb164eaa7079968861783, type: 3}
     maxVolume: 0.8
+  - audioName: player_footstep
+    clips:
+    - {fileID: 8300000, guid: 352e35c8595d5b646ba11ebea154e739, type: 3}
+    maxVolume: 1
   uiAudio:
   - audioName: button_click
     clips:
-    - {fileID: 8300000, guid: 98b107109a4ce2242bdf7a044b5bfc73, type: 3}
+    - {fileID: 8300000, guid: 802b2184600cb164eaa7079968861783, type: 3}
     maxVolume: 0.65
   levelMusic:
   - audioName: playlist_MainMenu
     clips:
-    - {fileID: 8300000, guid: 171d29a99ee0aeb498388072b6a63ad5, type: 3}
+    - {fileID: 8300000, guid: 6eb8978be1b094c408ae973f26bda3d1, type: 3}
     maxVolume: 0.3
-  - audioName: playlist_level 0
+  - audioName: playlist_level
     clips:
-    - {fileID: 8300000, guid: bc73098a15b97a24683e40657cbc3d97, type: 3}
-    maxVolume: 0.3
-  - audioName: playlist_level 1
-    clips:
-    - {fileID: 8300000, guid: 7e6c5a854ab8ece4b882673a7f7fed1a, type: 3}
+    - {fileID: 8300000, guid: f9fc2109335e5884f802548d68ff4dc7, type: 3}
     maxVolume: 0.3
   - audioName: playlist_Ending
     clips:

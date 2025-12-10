@@ -69,27 +69,40 @@ public class UI_Dialogue : MonoBehaviour
                     PlayDialogueLine(selectedChoice);
                 }
                 break;
-            case DialogueActionType.Continue: // 新增：按确认继续到 nextLine
+
+            case DialogueActionType.Continue:
                 if (currentLine.nextLine != null)
                 {
                     PlayDialogueLine(currentLine.nextLine);
                 }
                 else
                 {
-                    // 没有配置 nextLine 就安全收尾
                     ui.ReturnToGameplay();
                 }
                 break;
+
+            case DialogueActionType.SceneSwitch:
+                if (GameManager.instance != null && !string.IsNullOrEmpty(currentLine.sceneToLoad))
+                {
+                    GameManager.instance.ChangeScene(currentLine.sceneToLoad);
+                }
+                else
+                {
+                    ui.ReturnToGameplay();
+                }
+                break;
+
             case DialogueActionType.CloseDialogue:
                 ui.ReturnToGameplay();
                 break;
+
             case DialogueActionType.None:
             default:
-                // 防止遗漏类型导致“卡住”
                 ui.ReturnToGameplay();
                 break;
         }
     }
+
 
     public void DialogueInteraction()
     {

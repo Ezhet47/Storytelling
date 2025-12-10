@@ -18,8 +18,11 @@ public class DialogueLineSO : ScriptableObject
     [TextArea] public string actionLine;
     public DialogueActionType actionType;
 
+    [Header("Scene Switch")]
+    public string sceneToLoad;
+
     [Header("Flow")]
-    public DialogueLineSO nextLine;   // 新增：用于 Continue 串联
+    public DialogueLineSO nextLine;
 
     public string GetFirstLine() => textLine[0];
 
@@ -28,4 +31,3 @@ public class DialogueLineSO : ScriptableObject
         return textLine[Random.Range(0, textLine.Length)];
     }
 }
-
