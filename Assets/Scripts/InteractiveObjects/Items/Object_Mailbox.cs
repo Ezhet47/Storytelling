@@ -15,6 +15,17 @@ public class Object_Mailbox : Object_Actor
         cachedCollider = GetComponent<Collider2D>();
         if (cachedCollider != null)
             cachedCollider.isTrigger = true;
+
+        if (GameManager.instance != null && GameManager.instance.mailboxInteracted)
+        {
+            hasInteracted = true;
+
+            if (interactToolTip != null)
+                interactToolTip.SetActive(false);
+
+            if (cachedCollider != null)
+                cachedCollider.enabled = false;
+        }
     }
 
     public override void Interact()
@@ -24,15 +35,14 @@ public class Object_Mailbox : Object_Actor
 
         hasInteracted = true;
 
-        if (dialogueLine != null)
-        {
-            ui.OpenDialogueUI(dialogueLine);
-        }
-
         if (GameManager.instance != null)
         {
+            GameManager.instance.mailboxInteracted = true;
             GameManager.instance.newspaperPicked = true;
         }
+
+        if (dialogueLine != null)
+            ui.OpenDialogueUI(dialogueLine);
 
         if (interactToolTip != null)
             interactToolTip.SetActive(false);

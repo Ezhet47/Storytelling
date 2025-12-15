@@ -455,6 +455,7 @@ MonoBehaviour:
   interactToolTip: {fileID: 1881754008}
   floatSpeed: 8
   floatRange: 0.1
+  dialogueLine: {fileID: 0}
 --- !u!1 &224978435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5497,9 +5498,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 995454464}
   - {fileID: 694846551}
   - {fileID: 208524856}
+  - {fileID: 995454464}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546364706
