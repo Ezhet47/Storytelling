@@ -215,8 +215,12 @@ MonoBehaviour:
   exerciseBookPicked: 0
   newspaperPicked: 0
   annaDialogueStage: 0
+  linDialogueStage: 0
+  zhaoDialogueStage: 0
   MonologueTriggered: 0
   cardboardBoxInteracted: 0
+  shoeCabinetInteracted: 0
+  mailboxInteracted: 0
 --- !u!4 &138509611
 Transform:
   m_ObjectHideFlags: 0
@@ -787,7 +791,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 538765784}
         m_TargetAssemblyTypeName: UI_Options, Assembly-CSharp
-        m_MethodName: GoToLevel1
+        m_MethodName: GoToAnnaBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

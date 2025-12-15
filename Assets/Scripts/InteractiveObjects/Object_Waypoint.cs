@@ -23,8 +23,9 @@ public class Object_Waypoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 如有需要可以加 Tag 判断
-        // if (!collision.CompareTag("Player")) return;
+        if (GameManager.instance != null && GameManager.instance.AllNpcDialogueCompleted())
+            transferToScene = "Ending";
+        
 
         GameManager.instance.ChangeScene(transferToScene);
     }

@@ -19,7 +19,7 @@ MonoBehaviour:
   playerChoiceAnswer: 
   choiceLines:
   - {fileID: 11400000, guid: 2c02fe95725d10c4a858c3ac8fd75135, type: 2}
-  - {fileID: 11400000, guid: 8d130f486aabe784c91fbb0bec5c5398, type: 2}
   actionLine: 
   actionType: 2
+  sceneToLoad: 
   nextLine: {fileID: 0}

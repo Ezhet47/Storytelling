@@ -20,11 +20,16 @@ public class GameManager : MonoBehaviour
 
     [Header("Global NPC Flags")]
     public int annaDialogueStage;
+    public int linDialogueStage;
+    public int zhaoDialogueStage;
 
     [Header("Global One-shot Flags")]
     public bool MonologueTriggered;
     public bool cardboardBoxInteracted;
+    public bool shoeCabinetInteracted;
+    public bool mailboxInteracted;
 
+    private HashSet<string> triggeredMonologueIds = new HashSet<string>();
 
     private void Awake()
     {
@@ -41,17 +46,6 @@ public class GameManager : MonoBehaviour
     public void ContinuePlay()
     {
         ChangeScene(startGameSceneName);
-    }
-
-    public void GoToMainMenu()
-    {
-        ChangeScene(mainMenuSceneName);
-    }
-
-    public void GoToLevel1()
-    {
-        annaDialogueStage = 1;
-        ChangeScene("Level_1");
     }
 
     public void RestartScene()
@@ -97,6 +91,34 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void GoToMainMenu()
+    {
+        ChangeScene(mainMenuSceneName);
+    }
+
+    public void GoToLevel1()
+    {
+        ChangeScene("Level_1");
+    }
+
+    public void AnnaStageBack()
+    {
+        annaDialogueStage = 1;
+        GoToLevel1();
+    }
+
+    public void LinStageBack()
+    {
+        linDialogueStage = 1;
+        GoToLevel1();
+    }
+
+    public void ZhaoStageBack()
+    {
+        zhaoDialogueStage = 1;
+        GoToLevel1();
+    }
+
     private UI_FadeScreen FindFadeScreenUI()
     {
         if (UI.instance != null)
@@ -104,8 +126,6 @@ public class GameManager : MonoBehaviour
 
         return FindFirstObjectByType<UI_FadeScreen>();
     }
-
-    private HashSet<string> triggeredMonologueIds = new HashSet<string>();
 
     public bool IsMonologueTriggered(string id)
     {
@@ -121,5 +141,12 @@ public class GameManager : MonoBehaviour
             return;
 
         triggeredMonologueIds.Add(id);
+    }
+
+    public bool AllNpcDialogueCompleted()
+    {
+        return annaDialogueStage == 2 &&
+               linDialogueStage == 2 &&
+               zhaoDialogueStage == 2;
     }
 }
