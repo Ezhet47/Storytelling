@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fc56081-2edd-4776-9131-fbba36bcfaa7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2431722e3e3e41d78b6718bb39ab91111df400/21/ef05667c/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Data/DamageData/AttackData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Data/DamageData/DamageScaleData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Data/DamageData/ElementalEffectData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyReaperState/Enemy_ReaperAttackState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyReaperState/Enemy_ReaperSpellCastState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_AttackState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_BattleState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_DeadState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_GroundedState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_IdleState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_MoveState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/EnemyStates/Enemy_StunnedState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/Enemy_AnimationTriggers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/Enemy_Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/Enemy_Reaper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Enemy/Enemy_ReaperSpell.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Entity/Entity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Entity/Entity_Combat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Entity/Entity_Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Entity/Entity_VFX.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/Player/Player_Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/StatSystem/Stat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/StateMachine/EnemyState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/StateMachine/EntityState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/UI/InGameUI/UI_InGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Udemy+Course+-+RPG+New+-+More+enemies/Udemy Course - RPG New/Assets/Scripts/VFX/VFX_AutoController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/Data/DialogueData/DialogueLineSO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/Data/DialogueData/DialogueNpcData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/Data/DialogueData/DialogueSpeakerSO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/InteractiveObjects/Object_Blacksmith.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/InteractiveObjects/Object_Merchant.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/InteractiveObjects/Object_NPC.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/LevelManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/UI/UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Dialogue+System/Udemy Course - RPG New/Assets/Scripts/UI/UI_Dialogue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/Enum/RespawnType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/SaveSystem/SaveManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/SaveSystem/SerializableDictionary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/UI/UI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Udemy+Course+-+RPG+New+-+Scene+Managmnet/Udemy Course - RPG New/Assets/Scripts/UI/UI_Options.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enum/DialogueActionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/IInteractable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@91afae292a4e/Editor/GridEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32Qz4q0nXRhzxkrnKAV4MU7Kv8a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Open Project\Open project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\56805\Desktop\BOSS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Unity\Unity Install\6000.0.40f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\Unity\Unity Storage\Open project&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Unity\Unity Storage\Open project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Unity\Unity Install\6000.0.40f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\Unity\Unity Storage\Open project&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Unity\Unity Storage\Open project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc56081-2edd-4776-9131-fbba36bcfaa7" name="Changes" comment="" />
+      <created>1757367396617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757367396617</updated>
+      <workItem from="1757367397916" duration="3755000" />
+      <workItem from="1758760448743" duration="1817000" />
+      <workItem from="1758762313013" duration="116000" />
+      <workItem from="1758762462794" duration="80000" />
+      <workItem from="1758762570209" duration="4802000" />
+      <workItem from="1758770370131" duration="14000" />
+      <workItem from="1758962349631" duration="1725000" />
+      <workItem from="1758964100630" duration="6501000" />
+      <workItem from="1758996985103" duration="2292000" />
+      <workItem from="1759002956196" duration="88000" />
+      <workItem from="1759003122579" duration="8683000" />
+      <workItem from="1759085327804" duration="1498000" />
+      <workItem from="1759086850317" duration="558000" />
+      <workItem from="1759087542027" duration="1231000" />
+      <workItem from="1759089012087" duration="1152000" />
+      <workItem from="1759090204432" duration="1603000" />
+      <workItem from="1759432219689" duration="3256000" />
+      <workItem from="1759435648977" duration="1528000" />
+      <workItem from="1759437380572" duration="1587000" />
+      <workItem from="1759612487936" duration="598000" />
+      <workItem from="1759618883307" duration="5084000" />
+      <workItem from="1759631678030" duration="373000" />
+      <workItem from="1759632068280" duration="4785000" />
+      <workItem from="1759690652658" duration="15000" />
+      <workItem from="1759692996787" duration="13564000" />
+      <workItem from="1760293572877" duration="6453000" />
+      <workItem from="1760306213573" duration="650000" />
+      <workItem from="1760309416932" duration="1720000" />
+      <workItem from="1762909673873" duration="626000" />
+      <workItem from="1762918066039" duration="24000" />
+      <workItem from="1762918177034" duration="494000" />
+      <workItem from="1762918685573" duration="3000" />
+      <workItem from="1762918705028" duration="708000" />
+      <workItem from="1762919782623" duration="35000" />
+      <workItem from="1762921330012" duration="194000" />
+      <workItem from="1762921937730" duration="382000" />
+      <workItem from="1762924224323" duration="2499000" />
+      <workItem from="1762927279713" duration="368000" />
+      <workItem from="1762927766041" duration="353000" />
+      <workItem from="1762928334525" duration="19000" />
+      <workItem from="1762928372141" duration="1018000" />
+      <workItem from="1762959115755" duration="49000" />
+      <workItem from="1762959589874" duration="446000" />
+      <workItem from="1762960861789" duration="747000" />
+      <workItem from="1762984629240" duration="1196000" />
+      <workItem from="1762985967552" duration="666000" />
+      <workItem from="1762988354910" duration="5552000" />
+      <workItem from="1764377955703" duration="574000" />
+      <workItem from="1764379238238" duration="291000" />
+      <workItem from="1764379547243" duration="90000" />
+      <workItem from="1764380721655" duration="4752000" />
+      <workItem from="1764389234850" duration="3000" />
+      <workItem from="1764391063728" duration="667000" />
+      <workItem from="1764392098473" duration="4954000" />
+      <workItem from="1764464749766" duration="1327000" />
+      <workItem from="1764467206521" duration="1000" />
+      <workItem from="1764468769676" duration="1981000" />
+      <workItem from="1764471562189" duration="2876000" />
+      <workItem from="1764475042001" duration="7000" />
+      <workItem from="1764475423619" duration="3000" />
+      <workItem from="1764475677987" duration="302000" />
+      <workItem from="1764476019867" duration="1139000" />
+      <workItem from="1764477697115" duration="1165000" />
+      <workItem from="1764478904271" duration="8000" />
+      <workItem from="1764555272780" duration="462000" />
+      <workItem from="1764555770255" duration="5208000" />
+      <workItem from="1764591689319" duration="5000" />
+      <workItem from="1764591708865" duration="1448000" />
+      <workItem from="1764593279732" duration="21000" />
+      <workItem from="1764594024566" duration="737000" />
+      <workItem from="1764595114460" duration="515000" />
+      <workItem from="1764598261235" duration="1950000" />
+      <workItem from="1764604597325" duration="1205000" />
+      <workItem from="1764622280579" duration="1519000" />
+      <workItem from="1764624634064" duration="1352000" />
+      <workItem from="1764627320972" duration="5935000" />
+      <workItem from="1764635253165" duration="1147000" />
+      <workItem from="1764637238141" duration="12000" />
+      <workItem from="1764637356316" duration="747000" />
+      <workItem from="1764638439291" duration="654000" />
+      <workItem from="1764640470801" duration="241000" />
+      <workItem from="1764640724405" duration="598000" />
+      <workItem from="1764644479224" duration="2000" />
+      <workItem from="1764672033611" duration="4000" />
+      <workItem from="1764672153235" duration="1591000" />
+      <workItem from="1764703005895" duration="66000" />
+      <workItem from="1764706217609" duration="563000" />
+      <workItem from="1764707175969" duration="5000" />
+      <workItem from="1764714173470" duration="403000" />
+      <workItem from="1764716683788" duration="28000" />
+      <workItem from="1764718100096" duration="188000" />
+      <workItem from="1764719056074" duration="176000" />
+      <workItem from="1764719275624" duration="1208000" />
+      <workItem from="1764794032175" duration="285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
