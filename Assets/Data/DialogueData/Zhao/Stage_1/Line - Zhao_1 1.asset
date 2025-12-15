@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
   m_Name: Line - Zhao_1 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
-  dialogueGroupName: 
-  speaker: {fileID: 0}
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
   textLine: []
   playerChoiceAnswer: 
   choiceLines: []

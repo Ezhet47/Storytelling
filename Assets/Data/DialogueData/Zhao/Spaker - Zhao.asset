@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8bb25950aec5a54eb67445a11520c67, type: 3}
   m_Name: Spaker - Zhao
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSpeakerSO
-  speakerName: 
+  speakerName: Dr.Zhao
