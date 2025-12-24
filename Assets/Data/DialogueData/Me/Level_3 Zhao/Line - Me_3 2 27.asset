@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Me_3 2 27
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Me
+  speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
+  textLine:
+  - (I turn back, but the door to Room 203 has already closed. Through the crack
+    in the door, I see the light in the room gradually dimming. Dr. Zhao's figure
+    becomes more and more transparent in the darkness, like a layer of mist, slowly
+    dissipating into the air. Finally, only the empty operating table and cold instruments
+    remain.)
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: fe7fd33354cd4924c9274f07b1968bae, type: 2}

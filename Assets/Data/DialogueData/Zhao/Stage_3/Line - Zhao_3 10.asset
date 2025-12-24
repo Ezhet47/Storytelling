@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_3 10
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - 'One month later, April 18, she jumped from the seventh floor of the hospital
+    inpatient building. I was on duty when I heard the news. I ran downstairs and
+    saw her lying on the ground, still holding her child''s photo.
+
+'
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: af91cfd7219f69740ab389158a24e9cd, type: 2}

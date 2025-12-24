@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_2 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - 'Have you changed your mind?
+
+'
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 693434170bf86c34ebe8eee7188c06fe, type: 2}
+  actionLine: 
+  actionType: 2
+  sceneToLoad: 
+  nextLine: {fileID: 0}

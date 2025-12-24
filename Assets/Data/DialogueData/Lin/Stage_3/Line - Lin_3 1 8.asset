@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Lin_3 1 8
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Lin
+  speaker: {fileID: 11400000, guid: 14d5bb98e4ad3a1408caa11a3b030aa6, type: 2}
+  textLine:
+  - "Three\u2026 years? But I\u2019m still doing my homework. I\u2019m still writing.
+    If I finish it, they\u2019ll come up and praise me, they\u2019ll\u2014\r\n"
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: b9ea49e2b1913bb4cb3af6b692139012, type: 2}

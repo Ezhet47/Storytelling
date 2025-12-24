@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_3 15
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - 'Please. Let me give you a complete examination. I promise, this time I''ll be
+    very, very careful. I''ll check every indicator, I''ll use the most rigorous
+    methods. I''ll find the problem. I can definitely find it. I can definitely help
+    you.
+
+'
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: 3554579c6ea336b4a95350fc0f7435f6, type: 2}

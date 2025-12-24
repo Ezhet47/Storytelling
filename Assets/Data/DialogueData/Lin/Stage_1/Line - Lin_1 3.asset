@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Lin_1 3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Lin
+  speaker: {fileID: 11400000, guid: 14d5bb98e4ad3a1408caa11a3b030aa6, type: 2}
+  textLine:
+  - "Oh, right, you can call me Lin. I\u2019m in a bit of trouble right now. Could
+    you help me with something?\r\n"
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: 7addc641cfd93104f98d8c0b3860a94b, type: 2}

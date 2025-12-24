@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
   dialogueGroupName: Lin
   speaker: {fileID: 11400000, guid: 14d5bb98e4ad3a1408caa11a3b030aa6, type: 2}
-  textLine: []
-  playerChoiceAnswer: 
+  textLine:
+  - "Hi, are you the neighbor from upstairs? I just\u2026 heard you walking back
+    and forth outside.\r\n"
+  playerChoiceAnswer: Knock
   choiceLines: []
   actionLine: 
-  actionType: 0
+  actionType: 1
   sceneToLoad: 
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: df965d62f60a2424fb3003d499c03b64, type: 2}

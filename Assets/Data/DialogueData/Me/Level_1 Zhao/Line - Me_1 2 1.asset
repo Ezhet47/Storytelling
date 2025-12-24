@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Me_1 2 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Me
+  speaker: {fileID: 11400000, guid: 6be988fd48539cd4fb3fd6216c28f4df, type: 2}
+  textLine:
+  - ' (Room 203. Should I knock on the door?)'
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 9a952711fa00c7e4fb4e9d39031b4e59, type: 2}
+  - {fileID: 11400000, guid: bdcad05aeeadc044cb0c0ab156f56acd, type: 2}
+  actionLine: 
+  actionType: 2
+  sceneToLoad: 
+  nextLine: {fileID: 0}

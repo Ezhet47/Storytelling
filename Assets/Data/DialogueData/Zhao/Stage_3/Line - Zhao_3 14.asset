@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_3 14
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - 'Yes. I know this sounds crazy. But... (Voice pleading) give me one chance. One
+    last chance. Let me prove... let me prove I''m not worthless, prove I can still
+    save people.
+
+'
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: 43e05f0824c4ac64f8b1375844439037, type: 2}

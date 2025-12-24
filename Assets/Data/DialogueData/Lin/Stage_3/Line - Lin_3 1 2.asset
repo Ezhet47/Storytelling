@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Lin_3 1 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Lin
+  speaker: {fileID: 11400000, guid: 14d5bb98e4ad3a1408caa11a3b030aa6, type: 2}
+  textLine:
+  - 'Could you come in and help me with a few problems? I can never get the last
+    ones right.
+
+    
+
+'
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 04c2f8c6f7983b244b00030ba928a620, type: 2}
+  - {fileID: 11400000, guid: d4d44084c434eb741a755440bc6f4add, type: 2}
+  actionLine: 
+  actionType: 2
+  sceneToLoad: 
+  nextLine: {fileID: 0}

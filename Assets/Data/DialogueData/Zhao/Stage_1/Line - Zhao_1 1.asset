@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
   dialogueGroupName: Dr.Zhao
   speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
-  textLine: []
-  playerChoiceAnswer: 
+  textLine:
+  - ' Come in, the door is unlocked.'
+  playerChoiceAnswer: Knock
   choiceLines: []
   actionLine: 
-  actionType: 0
+  actionType: 1
   sceneToLoad: 
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 1df468ef36f8dcf498d19ef7548d66f6, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_3 4
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - "Li Rui. Seven years old. March 15, 2022, 11 PM. His mother brought him to the
+    ER. Chief complaint: abdominal pain, fever. I examined him\u2014temperature 37.8\xB0C,\n"
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: c231ea3b71165bb46b72bc1fb9439ce3, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Lin_1 9
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Lin
+  speaker: {fileID: 11400000, guid: 14d5bb98e4ad3a1408caa11a3b030aa6, type: 2}
+  textLine:
+  - '
+
+
+
+'
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: "They\u2019d see it in the morning and think I\u2019m working hard.\r\nBut
+    now, no matter what I do, I just can\u2019t get out.\r\nCould you grab it for
+    me? Please? It\u2019s right under the shoe cabinet by our door, a blue-covered
+    exercise book.\r\n\r\n"
+  actionType: 3
+  sceneToLoad: 
+  nextLine: {fileID: 0}

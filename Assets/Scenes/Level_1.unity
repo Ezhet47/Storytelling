@@ -455,7 +455,7 @@ MonoBehaviour:
   interactToolTip: {fileID: 1881754008}
   floatSpeed: 8
   floatRange: 0.1
-  dialogueLine: {fileID: 0}
+  dialogueLine: {fileID: 11400000, guid: c4aca739d54e9844dbdd58a42b1f51cc, type: 2}
 --- !u!1 &224978435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1093,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.570679, y: -7.362879, z: 23.692577}
+  m_LocalPosition: {x: -19.571856, y: -7.3626986, z: 23.692577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4576,7 +4576,7 @@ MonoBehaviour:
   interactToolTip: {fileID: 248779638}
   floatSpeed: 8
   floatRange: 0.1
-  dialogueLine: {fileID: 0}
+  dialogueLine: {fileID: 11400000, guid: f04d2cbd6bdff3c409f9c0e4c555dcc4, type: 2}
 --- !u!1 &1041623247
 GameObject:
   m_ObjectHideFlags: 0
@@ -5689,9 +5689,9 @@ MonoBehaviour:
   interactToolTip: {fileID: 270703686}
   floatSpeed: 8
   floatRange: 0.1
-  firstDialogueLine: {fileID: 11400000, guid: e2239619b35282947ba47ee9b98a9f65, type: 2}
-  secondDialogueLine: {fileID: 0}
-  thirdDialogueLine: {fileID: 0}
+  firstDialogueLine: {fileID: 11400000, guid: 78532ae35a0d44042921d806ff683e91, type: 2}
+  secondDialogueLine: {fileID: 11400000, guid: 3079228e26ce56248bd6d4bdd471c423, type: 2}
+  thirdDialogueLine: {fileID: 11400000, guid: 25761ef8ae8e13e44a387ba8036aaab5, type: 2}
 --- !u!1 &1618259392
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,9 +6147,9 @@ MonoBehaviour:
   interactToolTip: {fileID: 1685049884}
   floatSpeed: 8
   floatRange: 0.1
-  firstDialogueLine: {fileID: 11400000, guid: 9a952711fa00c7e4fb4e9d39031b4e59, type: 2}
-  secondDialogueLine: {fileID: 0}
-  thirdDialogueLine: {fileID: 0}
+  firstDialogueLine: {fileID: 11400000, guid: 1feaab82780ee2f4ca1b8a3c5c29ff2f, type: 2}
+  secondDialogueLine: {fileID: 11400000, guid: 84c77547b761a594ebe2584e02cd1814, type: 2}
+  thirdDialogueLine: {fileID: 11400000, guid: dd91eabc2531150429051406ea2bf6e1, type: 2}
 --- !u!1 &2133420532
 GameObject:
   m_ObjectHideFlags: 0

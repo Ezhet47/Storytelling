@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - na Lin_1 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Narrator
+  speaker: {fileID: 11400000, guid: f185d001f972c1e4280575dd028646db, type: 2}
+  textLine:
+  - "You walk to the window without thinking.\r\nIt\u2019s open. Night air pours
+    in, making the exam paper rustle.\r\nYou glance down\u2014\r\nThe ground far
+    below is scattered with points of light, eighteen floors away, like shattered
+    glass.\r\n\r\n"
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionLine: 
+  actionType: 1
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: 0369459fe20e20a438db42559682fb3a, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c539b9ff40cd278408618b6f444262a6, type: 3}
+  m_Name: Line - Zhao_3 16
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Dr.Zhao
+  speaker: {fileID: 11400000, guid: a14adf5ca60634643900442c07242c31, type: 2}
+  textLine:
+  - 'This is my last request. If I succeed this time, maybe... maybe I can forgive
+    myself. Maybe I can leave this place. Please...
+
+'
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 4b948f536fcd83c40b19cbad0f06b35b, type: 2}
+  - {fileID: 11400000, guid: 964b31b88a6afae4ab25b94a9e171eb4, type: 2}
+  actionLine: 
+  actionType: 2
+  sceneToLoad: 
+  nextLine: {fileID: 11400000, guid: 26365b8eddc63344d90d462de793f223, type: 2}
